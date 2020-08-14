@@ -4,6 +4,9 @@ Repertory of every single Bachata videos I take with some featuring
 
 ## TODO List
 
+setEndTime with the duration of the video when the video is ready
+more control on the speed of the video with right and left arrow
+
 ## Contributing
 
 1. Fork it!
