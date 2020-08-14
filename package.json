@@ -1,0 +1,29 @@
+{
+  "name": "bachata",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.4",
+    "express": "^4.17.1",
+    "list-react-files": "^0.2.0",
+    "meteor-node-stubs": "^1.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.1",
+    "react-player": "^2.6.0",
+    "react-router-dom": "^5.2.0",
+    "request": "^2.88.2",
+    "styled-components": "^5.1.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
